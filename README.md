@@ -1,11 +1,9 @@
 # FO27Q3 Hypernits
 
-**EXPERIMENTAL - tested on one single unit only. A bad flash can permanently brick the monitor.**
-
 **Use at your own risk.** Flashing modified firmware will, of course, void your monitor's warranty. I am not responsible for any damage to a monitor, including a bricked monitor, caused by this project or anything built from it. The risk must be evaluated by the user before flashing anything.
 
 Research project that ports the **HyperNits (Off / Medium / High)** HDR setting, found in the MO27Q2A F03
-firmware ("Add the HyperNits feature"), to the AORUS FO27Q3 (Realtek RTD2738 scaler), firmware **F05**.
+firmware, to the AORUS FO27Q3, firmware **F05**.
 
 No firmware, updater or vendor DLL is included in this repository, and none must be added. You supply the official
 F05 package (and the MO27Q2A F03 package for the donor tables) yourself; the tools only apply a small byte patch.
@@ -25,7 +23,7 @@ F05 package (and the MO27Q2A F03 package for the donor tables) yourself; the too
 - Hooks live in unused flash at file offset `0x131000` and use absolute jumps with explicit nops, so they behave the same with or without MIPS delay slots.
 
 ## Status / known gaps
-- Hardware testing so far: **one single unit** (the author's own FO27Q3). The current Off / Medium / High build is running on that unit with no issues observed so far; it has also passed the simulator (28,651 cases in each of 3 delay models). This is still experimental code, and one working unit is not proof it is safe on others.
+- Hardware testing so far: **one single unit** (my own FO27Q3). The current Off / Medium / High build is running on that unit with no issues observed so far; it has also passed the simulator (28,651 cases in each of 3 delay models).
 - Not independently verified: the value-string group, use of bit 6, execution from the extra flash area, boot-time integrity checks, whether the vendor updater accepts a modified same-version image on every unit.
 - No verified recovery route; dump and test-restore the SPI flash first.
 
