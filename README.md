@@ -40,8 +40,8 @@ F05 package (and the MO27Q2A F03 package for the donor tables) yourself; the too
 The official packages are 7-Zip self-extracting archives, so they are not installers you have to run:
 1. Install [7-Zip](https://www.7-zip.org/).
 2. Right-click `AORUS_FO27Q3_F05.exe` -> **7-Zip -> Extract to "AORUS_FO27Q3_F05\"** (or run `7z x AORUS_FO27Q3_F05.exe -oextracted/AORUS_FO27Q3_F05`). Do **not** double-click the `.exe`: that launches Gigabyte's updater.
-3. You get a `FWUPD` folder with `F05.bin`, `UpdFW_RTK.exe`, `RFlash.dll`, `RtHIDlib.dll`, `RTKCmd_x64.dll`, `upd.xml`. Do the same for `MO27Q2A_F03.exe` (it contains `F03.bin`).
-4. For the build tools, keep them at `extracted/AORUS_FO27Q3_F05/FWUPD/` and `extracted/MO27Q2A_F03/FWUPD/`.
+3. You get a `FWUPD` folder with `F05.bin`, `UpdFW_RTK.exe`, `RFlash.dll`, `RtHIDlib.dll`, `RTKCmd_x64.dll`, `upd.xml`. That is all you need to flash with the launcher (`flasher/FO27Q3_HyperNits_Flasher.exe`). Only if you rebuild the patch from source (see below), extract `MO27Q2A_F03.exe` the same way (it contains `F03.bin`).
+4. For the build tools, keep them at `extracted/AORUS_FO27Q3_F05/FWUPD/` (and `extracted/MO27Q2A_F03/FWUPD/` if you rebuild from source).
 
 ### Rebuilding the patch from source (advanced)
 1. Extract both packages as above and check the hashes listed below.
