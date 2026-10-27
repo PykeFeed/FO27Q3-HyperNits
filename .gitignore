@@ -1,0 +1,22 @@
+# Never commit vendor firmware / updaters / dumps
+*.bin
+*.exe
+!flasher/FO27Q3_HyperNits_Flasher.exe
+*.dll
+*.elf
+*.o
+*.lut
+extracted/
+FO27Q3_HyperNits_flash_package/
+original_backup/
+flasher/aio/emb/
+research/*.asm
+research/*.strings.txt
+tools/linux_binutils/
+tools/python_deps/
+tools/re_deps/
+__pycache__/
+*.pdb
+track_progress.md
+build_work/
+research/

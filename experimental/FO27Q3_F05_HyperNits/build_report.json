@@ -1,0 +1,150 @@
+{
+  "status": "EXPERIMENTAL; NOT HARDWARE TESTED",
+  "input_sha256": "abe67e9130746a19762c3395538d05c758a9bbf228f3219f6060c78416bf62b6",
+  "donor_sha256": "219d048d93d013640e6a18166da6e4471c1563f8f771cebda30ce04d9636498c",
+  "donor": "MO27Q2A F03 HyperNits tables (pointer idx10/11 Medium, idx12/13 High)",
+  "output_sha256": "e305e1401c0b462000050b36a73c248b8e31287da5d7790f5e073ed49e167e4c",
+  "image_bytes": 3801088,
+  "cave_offset": "0x131000",
+  "payload_bytes": 1632,
+  "symbols": {
+    "descriptor_hook": "0x86131000",
+    "descriptor_new": "0x8613101a",
+    "get_level": "0x86131050",
+    "get_level_done": "0x86131066",
+    "applicable": "0x8613106c",
+    "applicable_no": "0x8613108c",
+    "applicable_done": "0x8613108e",
+    "effective_level": "0x86131098",
+    "effective_done": "0x861310ac",
+    "availability_hook": "0x861310b4",
+    "availability_new": "0x861310cc",
+    "commit_hook": "0x861310e4",
+    "commit_low": "0x861310fc",
+    "commit_new": "0x86131108",
+    "set_level": "0x86131124",
+    "setter_write_failed": "0x861311a6",
+    "setter_done": "0x861311b6",
+    "label_hook": "0x861311c4",
+    "label_new": "0x861311de",
+    "value_text_hook": "0x861311f4",
+    "value_text_new": "0x86131214",
+    "value_text_ok": "0x8613121c",
+    "apl_override": "0x86131238",
+    "apl_stock": "0x8613124c",
+    "apl_done": "0x86131252",
+    "selector_hook": "0x8613125c",
+    "selector_stock": "0x86131280",
+    "selector_lookup": "0x86131288",
+    "load_hook": "0x86131298",
+    "load_failed": "0x861312e2",
+    "load_return": "0x861312fc",
+    "hn_tables": "0x86131308",
+    "hn_value_strings": "0x86131318",
+    "hypernits_label": "0x86131324",
+    "str_off": "0x8613132e",
+    "str_medium": "0x86131332",
+    "str_high": "0x8613133b",
+    "hn_medium0": "0x86131340",
+    "hn_medium1": "0x86131408",
+    "hn_high0": "0x861314d0",
+    "hn_high1": "0x86131598",
+    "hooks_end": "0x86131660"
+  },
+  "changes": [
+    {
+      "offset": 1249280,
+      "length": 1632,
+      "before": "ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff",
+      "after": "08 d1 07 d0 c6 74 09 60 00 65 14 f0 30 6a 10 f6 21 6f 1f f1 0d 4f 00 ef 00 65 14 f0 30 68 83 f0 10 48 01 6a 40 c0 48 c0 02 6a 42 c8 00 6a 43 c8 c6 6a 45 c8 80 f1 0f 6a 46 c8 8c 18 14 c4 00 65 41 c8 10 f6 21 6f df f2 0f 4f 00 ef 00 65 00 65 14 f0 30 6a 63 f2 55 a2 60 6b 6c ea 56 32 03 72 02 61 00 65 02 6a 20 e8 00 65 00 65 fd 63 05 62 0c 18 0c 37 00 65 0a 22 00 65 0c 18 56 9b 00 65 04 72 04 61 00 65 01 6a 02 10 00 65 00 6a 05 97 03 63 00 ef 00 65 00 65 fd 63 05 62 8c 18 1b c4 00 65 04 22 00 65 8c 18 14 c4 00 65 05 97 03 63 00 ef 00 65 0c d0 1e 6e c6 74 08 60 00 65 04 67 10 f6 21 6f 6a f2 13 4f 00 ef 00 65 8c 18 1b c4 00 65 01 6b 6e ea 10 f6 21 6f 0a f4 07 4f 00 ef 00 65 00 65 c6 74 10 60 00 65 7e 5c 07 61 00 65 10 f6 21 6f a2 f4 03 4f 00 ef 00 65 10 f6 21 6f 22 f3 0f 4f 00 ef 00 65 14 f0 30 6a 83 f0 92 aa 8c 18 49 c4 00 65 10 f6 21 6f 62 f3 03 4f 00 ef 00 65 00 65 fc 63 07 62 06 d0 05 d1 04 67 03 58 42 60 00 65 8c 18 1b c4 00 65 3d 22 00 65 14 f0 30 69 63 f2 75 a1 1f 6a 6c ea 90 67 94 34 8d ea 6a ea 31 60 00 65 04 d3 63 f2 55 c1 04 6c 0c 18 c9 1e 00 65 20 22 00 65 20 6c 01 6d 6c 18 96 70 00 65 21 6c 01 6d 6c 18 96 70 00 65 23 f0 9c a1 6c 18 c9 57 00 65 82 67 6c 18 1c 69 00 65 20 6c 00 6d 6c 18 96 70 00 65 21 6c 00 6d 6c 18 96 70 00 65 09 10 00 65 04 92 63 f2 55 c1 8c 18 14 c4 00 65 83 f0 52 c9 07 97 06 90 05 91 04 63 00 ef 00 65 00 65 18 6c 0c 18 1e 53 00 65 c6 72 07 60 00 65 10 f6 22 6f 02 f5 1b 4f 00 ef 00 65 10 f6 33 6a 22 f3 04 4a 10 f6 22 6f 82 f3 19 4f 00 ef 00 65 00 65 fd 63 05 62 04 d0 80 f1 0f 74 0a 60 00 65 7f f6 6b 44 44 67 10 f6 22 6f e1 f5 15 4f 00 ef 00 65 03 5d 02 61 00 65 00 6d a8 35 10 f6 33 6a 02 f3 18 4a a9 e2 40 9a 10 f6 22 6f 82 f3 19 4f 00 ef 00 65 00 65 fc 63 07 62 8c 18 26 c4 00 65 04 22 00 65 02 6a 04 10 00 65 0c 18 c2 37 00 65 07 97 04 63 00 ef 00 65 00 65 fc 63 07 62 06 d0 05 67 8c 18 26 c4 00 65 0a 22 00 65 ff 4a 44 32 41 e0 10 f6 33 6a 02 f3 08 4a 05 10 00 65 10 f6 33 6a 78 f3 14 4a 08 30 09 e2 40 9a 07 97 06 90 04 63 00 ef 00 65 04 d4 88 32 91 e2 7f 4c 15 4c 14 f0 30 6e 63 f2 14 4e 05 6d 6c 18 73 79 00 65 17 22 00 65 04 94 04 74 20 61 00 65 14 f0 30 6b 63 f2 b5 a3 80 6e ac ee 18 26 00 65 1f 6e cc ed 63 f2 b5 c3 0c 18 c9 1e 00 65 01 6a 0e 10 00 65 04 94 04 74 0a 61 00 65 14 f0 30 6b 63 f2 b5 a3 1f 6e cc ed 63 f2 b5 c3 00 6a 10 f6 20 6f ae f6 0f 4f 00 ef 00 65 40 13 13 86 08 14 13 86 d0 14 13 86 98 15 13 86 2e 13 13 86 32 13 13 86 3b 13 13 86 25 54 4a 3f 4c 2c 43 4e 4d ff 2d 40 40 ff 2a 2b 3f 3e 43 4f 47 00 ff 25 43 41 42 ff 00 00 00 00 10 02 00 30 05 00 60 08 00 a0 0d 01 00 13 01 70 1b 02 00 25 02 b0 31 03 90 41 04 b0 57 05 d0 6a 07 90 89 09 b0 b1 0c 70 e0 0f b1 1a 13 b1 5f 18 61 b2 1e 12 15 24 d2 8a 2c d3 15 36 43 ba 41 64 7a 4e 85 5e 5d d6 67 6f c7 9d 84 a9 07 9d 1a ab b9 8c 96 da 7e ce 40 24 58 4b 45 16 58 15 fa 6a 37 5e 82 b9 0b a0 2a c4 b9 cc ce e1 ef 8e 44 84 b5 52 d5 b0 63 f6 db 78 48 3d 90 79 e4 ad 3b b8 c7 6c e0 d3 8d 83 dc be 16 e4 4e 77 ea 4e cf f0 1f 2d f4 6f 72 f8 bf a4 fb 0f bd fc 9f d6 fe 2f ef ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff c0 00 3b 4b 00 00 65 00 00 01 00 20 03 00 40 06 00 80 0b 00 d0 11 01 50 19 01 e0 23 02 90 30 03 80 41 04 a0 55 06 10 6e 07 c0 8c 09 d0 b0 0c 50 db 0f 41 0f 12 c1 4c 16 e1 94 1b c1 e8 20 e2 41 26 52 8a 2c d3 15 36 43 ba 41 64 7a 4e 85 5e 5d d6 67 6f c7 9d 84 a9 07 9d 1a ab b9 8c 96 da 7e ce 40 24 58 4b 45 16 58 15 fa 6a 37 5e 82 b9 0b a0 2a c4 b9 cc ce e1 ef 8e 44 84 b5 52 d5 b0 63 f6 db 78 48 3d 90 79 e4 ad 3b b8 c7 6c e0 d3 8d 83 dc be 16 e4 4e 77 ea 4e cf f0 1f 2d f4 6f 72 f8 bf a4 fb 0f bd fc 9f d6 fe 2f ef ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff c0 00 3b 4b 00 00 65 00 00 00 00 10 02 00 30 05 00 60 08 00 a0 0d 01 00 13 01 70 1b 02 00 25 02 b0 31 03 90 41 04 b0 57 05 d0 6a 07 90 89 09 b0 b1 0c 70 e0 0f b1 1a 13 b1 5f 18 61 b2 1e 12 15 24 d2 8a 2c d3 15 36 43 ba 41 64 7a 4e 85 5e 5d d6 67 6f c7 9d 84 a9 07 9d 1a ab b9 8c 96 da 7e ce 40 24 58 4b 45 16 58 15 fa 6a 37 5e 82 b9 0b a0 2b 0f c3 8d 7b ed d4 17 48 14 f4 57 35 fc 69 37 37 7e 98 ac 98 1a 69 b6 5c 56 d0 fd 9f e0 3e 4e e9 3e d1 f1 0f 3c f6 7f 99 fc 5f de ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff c0 00 3b 4a 00 00 65 00 00 01 00 20 03 00 40 06 00 80 0b 00 d0 11 01 50 19 01 e0 23 02 90 30 03 80 41 04 a0 55 06 10 6e 07 c0 8c 09 d0 b0 0c 50 db 0f 41 0f 12 c1 4c 16 e1 94 1b c1 e8 20 e2 41 26 52 8a 2c d3 15 36 43 ba 41 64 7a 4e 85 5e 5d d6 67 6f c7 9d 84 a9 07 9d 1a ab b9 8c 96 da 7e ce 40 24 58 4b 45 16 58 15 fa 6a 37 5e 82 b9 0b a0 2b 0f c3 8d 7b ed d4 17 48 14 f4 57 35 fc 69 37 37 7e 98 ac 98 1a 69 b6 5c 56 d0 fd 9f e0 3e 4e e9 3e d1 f1 0f 3c f6 7f 99 fc 5f de ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff cf fc ff c0 00 3b 4a 00 00 65",
+      "reason": "Assembled hooks, target glyphs and donor High LUT pair; formerly FF space"
+    },
+    {
+      "offset": 63748,
+      "length": 8,
+      "before": "08 d1 07 d0 14 f0 30 6a",
+      "after": "8c 18 00 c4 00 65 00 65",
+      "reason": "Hook descriptor: descriptor_hook"
+    },
+    {
+      "offset": 86636,
+      "length": 6,
+      "before": "0c d0 1e 6e 04 67",
+      "after": "8c 18 2d c4 00 65",
+      "reason": "Hook availability: availability_hook"
+    },
+    {
+      "offset": 70440,
+      "length": 6,
+      "before": "7e 5c a0 f0 1a 60",
+      "after": "8c 18 39 c4 00 65",
+      "reason": "Hook commit: commit_hook"
+    },
+    {
+      "offset": 136468,
+      "length": 6,
+      "before": "18 6c 0c 18 1e 53",
+      "after": "8c 18 71 c4 00 65",
+      "reason": "Hook label: label_hook"
+    },
+    {
+      "offset": 30360,
+      "length": 8,
+      "before": "88 32 91 e2 14 f0 30 6e",
+      "after": "8c 18 a6 c4 00 65 00 65",
+      "reason": "Hook load: load_hook"
+    },
+    {
+      "offset": 933540,
+      "length": 4,
+      "before": "0c 18 c2 37",
+      "after": "8c 18 8e c4",
+      "reason": "Hook apl: apl_override"
+    },
+    {
+      "offset": 877112,
+      "length": 12,
+      "before": "08 4d a8 32 10 f6 33 6d 58 f3 14 4d",
+      "after": "10 f6 33 6f 42 f2 1d 4f 00 ef 00 65",
+      "reason": "Tail jump into selector hook, retaining original incoming return address"
+    },
+    {
+      "offset": 134632,
+      "length": 12,
+      "before": "fd 63 05 62 04 d0 7f f6 6b 44 44 67",
+      "after": "10 f6 33 6b e2 f1 15 4b 00 eb 00 65",
+      "reason": "Tail jump into string-lookup hook (group 399 = Off/Medium/High); stock prologue replayed by the hook"
+    },
+    {
+      "offset": 64192,
+      "length": 2,
+      "before": "06 6b",
+      "after": "07 6b",
+      "reason": "HDR adjustment descriptor row count7"
+    },
+    {
+      "offset": 89360,
+      "length": 2,
+      "before": "06 6d",
+      "after": "07 6d",
+      "reason": "HDR adjustment navigation row count7"
+    },
+    {
+      "offset": 91984,
+      "length": 2,
+      "before": "05 5a",
+      "after": "06 5a",
+      "reason": "Reset Picture remains entry fallback row6"
+    },
+    {
+      "offset": 955720,
+      "length": 8,
+      "before": "3a 39 37 36 35 38 ff ff",
+      "after": "3a 39 37 36 35 c6 38 ff",
+      "reason": "Insert new item198 before Reset Picture"
+    }
+  ],
+  "new_menu_id": 198,
+  "value_string_group": 399,
+  "storage": "HDR record byte+1 bits 5-6 (0 Off,1 Medium,2 High)"
+}
