@@ -72,5 +72,5 @@ The original code in this repository (hook source, build/verify/flasher tools an
 The license does not cover third-party material: Gigabyte's firmware, updater and DLLs are not included and remain their owner's property, and the patch data contains small table excerpts derived from the MO27Q2A F03 firmware, which stay under their original rights.
 
 ## Legal
-Unofficial and unaffiliated with the monitor vendor or Realtek. Patch bytes include small table excerpts derived from the MO27Q2A F03 firmware.
+Unofficial and unaffiliated with Gigabyte or Realtek. Patch bytes include small table excerpts derived from the MO27Q2A F03 firmware.
 Do not redistribute vendor firmware, updaters, DLLs or built all-in-one executables.
